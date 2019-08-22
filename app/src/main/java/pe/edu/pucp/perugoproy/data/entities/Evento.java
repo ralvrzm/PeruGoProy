@@ -1,16 +1,19 @@
 package pe.edu.pucp.perugoproy.data.entities;
 
+
+import com.google.firebase.Timestamp;
+
 public class Evento {
-    private int idEvento;
+    private String idEvento;
     private String titulo;
-    private String contenido;
+    private Timestamp fechaInicio;
+    private Timestamp fechaFin;
 
-
-    public int getIdEvento() {
+    public String getIdEvento() {
         return idEvento;
     }
 
-    public void setIdEvento(int idEvento) {
+    public void setIdEvento(String idEvento) {
         this.idEvento = idEvento;
     }
 
@@ -22,11 +25,19 @@ public class Evento {
         this.titulo = titulo;
     }
 
-    public String getContenido() {
-        return contenido;
+    public Timestamp getFechaInicio() {
+        return fechaInicio;
     }
 
-    public void setContenido(String contenido) {
-        this.contenido = contenido;
+    public void setFechaInicio(Timestamp fechaInicio) {
+        this.fechaInicio = fechaInicio;
+    }
+
+    public Timestamp getFechaFin() {
+        return fechaFin;
+    }
+
+    public void setFechaFin(Timestamp fechaFin) {
+        this.fechaFin = fechaFin;
     }
 }

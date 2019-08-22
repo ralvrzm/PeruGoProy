@@ -1,34 +1,64 @@
 package pe.edu.pucp.perugoproy.data.entities;
 
+import java.sql.Timestamp;
 import java.util.List;
 
 public class DetalleEvento {
-    private int idDetalleEvento;
-    private int idEvento;
-    private List<String> comentarios;
+    private String idDetalleEvento;
+    private String idEvento;
+    private String longitud;
+    private String latitud;
+    private String descripcion;
+    private String referencia;
 
-
-    public int getIdDetalleEvento() {
+    public String getIdDetalleEvento() {
         return idDetalleEvento;
     }
 
-    public void setIdDetalleEvento(int idDetalleEvento) {
+    public void setIdDetalleEvento(String idDetalleEvento) {
         this.idDetalleEvento = idDetalleEvento;
     }
 
-    public int getIdEvento() {
+    public String getIdEvento() {
         return idEvento;
     }
 
-    public void setIdEvento(int idEvento) {
+    public void setIdEvento(String idEvento) {
         this.idEvento = idEvento;
     }
 
-    public List<String> getComentarios() {
-        return comentarios;
+    public String getLongitud() {
+        return longitud;
     }
 
-    public void setComentarios(List<String> comentarios) {
-        this.comentarios = comentarios;
+    public void setLongitud(String longitud) {
+        this.longitud = longitud;
     }
+
+    public String getLatitud() {
+        return latitud;
+    }
+
+    public void setLatitud(String latitud) {
+        this.latitud = latitud;
+    }
+
+    public String getDescripcion() {
+        return descripcion;
+    }
+
+    public void setDescripcion(String descripcion) {
+        this.descripcion = descripcion;
+    }
+
+    public String getReferencia() {
+        return referencia;
+    }
+
+    public void setReferencia(String referencia) {
+        this.referencia = referencia;
+    }
+    //private List<String> comentarios;
+
+
 }
