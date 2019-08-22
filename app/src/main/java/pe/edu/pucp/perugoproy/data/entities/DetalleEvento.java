@@ -1,8 +1,5 @@
 package pe.edu.pucp.perugoproy.data.entities;
 
-import java.sql.Timestamp;
-import java.util.List;
-
 public class DetalleEvento {
     private String idDetalleEvento;
     private String idEvento;
