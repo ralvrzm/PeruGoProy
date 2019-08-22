@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "518195769010",
+    "firebase_url": "https://perugoproy.firebaseio.com",
+    "project_id": "perugoproy",
+    "storage_bucket": "perugoproy.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:518195769010:android:a93cd54acfa1876d",
+        "android_client_info": {
+          "package_name": "pe.edu.pucp.perugoproy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "518195769010-oohgvkpi11fptbtl0iamvst01n2t1h74.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "pe.edu.pucp.perugoproy",
+            "certificate_hash": "672cf512c7695c5ab91437f959f07343f787bba5"
+          }
+        },
+        {
+          "client_id": "518195769010-fh6pl4ra5fm7f1vb0vntdpb3pf8j1sdb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqXjL2RnZrrCJ0HGsq1Nvaxafzbisltv0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "518195769010-fh6pl4ra5fm7f1vb0vntdpb3pf8j1sdb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
