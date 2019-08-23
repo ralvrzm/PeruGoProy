@@ -3,8 +3,6 @@
     xmlns:dist="http://schemas.android.com/apk/distribution"
     package="pe.edu.pucp.perugoproy">
 
-    <dist:module dist:instant="true" />
-
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -12,6 +10,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity
+            android:name=".app_bar_main"
+            android:label="@string/title_activity_app_bar_main"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity android:name=".presentation.evento.view.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -20,5 +22,7 @@
             </intent-filter>
         </activity>
     </application>
+
+    <dist:module dist:instant="true" />
 
 </manifest>
