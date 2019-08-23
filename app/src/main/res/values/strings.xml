@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">PeruGoProy</string>
+    <string name="prompt_email">Correo electrónico</string>
+    <string name="prompt_password">contraseña</string>
+    <string name="action_sign_in_short">action_sign_in_short</string>
+    <string name="action_sign_in">Ingresar</string>
+    <string name="register">registrarte</string>
+    <string name="register_button">registrar</string>
 </resources>

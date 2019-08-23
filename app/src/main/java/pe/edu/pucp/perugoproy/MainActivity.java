@@ -1,10 +1,8 @@
-package pe.edu.pucp.perugoproy.presentation.evento.view;
-
-import androidx.appcompat.app.AppCompatActivity;
+package pe.edu.pucp.perugoproy;
 
 import android.os.Bundle;
 
-import pe.edu.pucp.perugoproy.R;
+import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
